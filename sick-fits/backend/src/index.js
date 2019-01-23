@@ -18,8 +18,7 @@ server.express.use((req, res, next) => {
       req.userId = userId;
     }
     next();
-  });
-  
+  });  
 
 
 server.start({
